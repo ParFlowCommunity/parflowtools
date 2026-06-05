@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="myparflowtools",
+    name="parflowtools",
     version="1.0.0",
     author="Your Name",
     description="Tools for basin mask generation and PFB clipping",
@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "run_two = myparflowtools.run_two:main",
+            "run_two = parflowtools.run_two:main",
         ],
     },
     classifiers=[

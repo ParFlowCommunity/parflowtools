@@ -15,7 +15,7 @@
 ### 1. 克隆或上传代码
 
 将项目目录放置于服务器，结构如下：
-```
+
 parflowtools/
 ├── setup.py
 ├── environment.yml
@@ -25,7 +25,7 @@ parflowtools/
     ├── run_two.py
     ├── generate_mask.py
     └── crop_pfb.py
-```
+
 ### 2. 使用 Conda 创建环境（推荐）
 
 ```
