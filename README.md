@@ -1,4 +1,4 @@
-# parflowtools-流域裁剪与 PFSOL 生成工具集
+# ParFlow-CONCN-Share-Platform
 
 ## 功能
 
@@ -16,15 +16,17 @@
 
 将项目目录放置于服务器，结构如下：
 
+```
 parflowtools/
 ├── setup.py
 ├── environment.yml
 ├── README.md
 └── parflowtools/
-    ├── __init__.py
-    ├── run_two.py
-    ├── generate_mask.py
-    └── crop_pfb.py
+ ├── __init__.py
+ ├── run_two.py
+ ├── generate_mask.py
+ └── crop_pfb.py
+```
 
 ### 2. 使用 Conda 创建环境（推荐）
 
