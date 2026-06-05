@@ -10,5 +10,6 @@ dependencies:
   - numpy
   - pip
   - pip:
-    - pftools[pfb]         # 通过 pip 安装 pftools 和 ParFlow I/O 组件
-    - -e .                 # 以可编辑模式安装你的 myparflowtools 包
+    - git+https://github.com/parflow/parflowio.git
+    - git+https://github.com/parflow/pftools.git
+    - -e .
