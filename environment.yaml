@@ -1,4 +1,4 @@
-name: parflowenv
+name: concnshare
 channels:
   - conda-forge
   - defaults

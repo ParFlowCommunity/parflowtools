@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="parflowtools",
+    name="concnshare",
     version="1.0.0",
     author="Your Name",
     description="Tools for basin mask generation and PFB clipping",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/starsea12/parflowtools",   # 可选
+    url="https://github.com/ParFlowCommunity/ParFlow-CONCN-Share-Platform",   # 可选
     packages=find_packages(),
     install_requires=[
         "numpy",
@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "run_two = parflowtools.run_two:main",
+            "run_two = concnshare.run_two:main",
         ],
     },
     classifiers=[

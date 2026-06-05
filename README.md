@@ -17,11 +17,11 @@
 将项目目录放置于服务器，结构如下：
 
 ```
-parflowtools/
+ParFlow-CONCN-Share-Platform/
 ├── setup.py
-├── environment.yml
+├── environment.yaml
 ├── README.md
-└── parflowtools/
+└── concnshare/
  ├── __init__.py
  ├── run_two.py
  ├── generate_mask.py
