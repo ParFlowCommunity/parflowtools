@@ -1,0 +1,13 @@
+name: myparflowenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - geopandas
+  - rasterio
+  - pftools
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - -e .   # 安装你的自定义包
