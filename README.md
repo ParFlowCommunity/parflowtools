@@ -1,5 +1,19 @@
 # ParFlow CONCN Share Platform
 
+## 项目结构如下：
+
+```
+ParFlow-CONCN-Share-Platform/
+├── setup.py
+├── environment.yml
+├── README.md
+└── concnshare/
+├── init.py
+├── run_two.py
+├── generate_mask.py
+└── crop_pfb.py
+```
+
 ## 安装与使用
 
 ### 1. 克隆仓库
