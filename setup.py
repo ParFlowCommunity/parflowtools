@@ -7,7 +7,7 @@ setup(
     description="Tools for basin mask generation and PFB clipping",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourname/myparflowtools",   # 可选
+    url="https://github.com/starsea12/parflowtools",   # 可选
     packages=find_packages(),
     install_requires=[
         "numpy",
